@@ -166,3 +166,69 @@
   align-items: center;
   justify-content: space-around;
 }
+
+/* Netflix footer */
+
+.trending-banner {
+  width: 100%;
+  height: 6rem;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 4.5rem;
+  padding-top: 2rem;
+  padding-left: 10rem;
+  text-align: left;
+  position: relative;
+  border-top-left-radius: 100% 60%;
+  border-top-right-radius: 100% 60%;
+  background: radial-gradient(
+      50% 500% at 50% -420%,
+      rgba(64, 97, 231, 0.4) 80%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    black;
+  display: flex;
+}
+
+.trending-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin-top: -0.25rem;
+  border-radius: inherit;
+  background: linear-gradient(
+    to right,
+    rgba(33, 13, 22, 1) 16%,
+    rgba(184, 40, 105, 1),
+    rgba(229, 9, 20, 1),
+    rgba(184, 40, 105, 1),
+    rgba(33, 13, 22, 1) 84%
+  );
+}
+
+/* .netflix-footer__line {
+  width: 100%;
+  height: 6rem;
+  border: 0.25rem;
+  border-color: linear-gradient(
+    to right,
+    rgba(33, 13, 22, 1) 16%,
+    rgba(184, 40, 105, 1),
+    rgba(229, 9, 20, 1),
+    rgba(184, 40, 105, 1),
+    rgba(33, 13, 22, 1) 84%
+  );
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+
+  background: radial-gradient(
+      50% 500% at 50% -420%,
+      rgba(64, 97, 231, 0.4) 80%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    black;
+} */
