@@ -16,10 +16,32 @@ function Card() {
                 Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
                 Blu-ray players, and more.
               </p>
+              <img src="" alt="" />
             </li>
-            <li className="card-item"></li>
-            <li className="card-item"></li>
-            <li className="card-item"></li>
+            <li className="card-item">
+              <h2>Enjoy on your TV</h2>
+              <p>
+                Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+                Blu-ray players, and more.
+              </p>
+              <img src="" alt="" />
+            </li>
+            <li className="card-item">
+              <h2>Enjoy on your TV</h2>
+              <p>
+                Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+                Blu-ray players, and more.
+              </p>
+              <img src="" alt="" />
+            </li>
+            <li className="card-item">
+              <h2>Enjoy on your TV</h2>
+              <p>
+                Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+                Blu-ray players, and more.
+              </p>
+              <img src="" alt="" />
+            </li>
           </ul>
         </div>
       </section>
