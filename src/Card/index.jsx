@@ -2,9 +2,9 @@ import "./Card.css";
 
 function Card() {
   return (
-    <section className="trending-section">
+    <section className="-section">
       <div className="trending-section_text">
-        <h2>More Reasons to Join </h2>
+        <h2 className="cars-item__text">More Reasons to Join </h2>
       </div>
 
       <div className="trending-card">

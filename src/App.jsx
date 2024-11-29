@@ -1,5 +1,4 @@
 import "./App.css";
-import Card from "./Card";
 
 import Netflix from "./Netflix";
 import Trending from "./Trending";
