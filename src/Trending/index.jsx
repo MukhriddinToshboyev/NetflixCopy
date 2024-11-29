@@ -9,6 +9,7 @@ import TrendingImage6 from "../assets/Trending-image6.png";
 import TrendingImage7 from "../assets/Trending-image7.png";
 import TrendingImage8 from "../assets/Trending-image8.png";
 import TrendingImage9 from "../assets/Trending-image9.png";
+import Card from "../Card";
 
 function Trending() {
   return (
@@ -89,6 +90,9 @@ function Trending() {
           </div>
         </nav>
       </div>
+      <section className="trending-section">
+        <Card />
+      </section>
     </div>
   );
 }
