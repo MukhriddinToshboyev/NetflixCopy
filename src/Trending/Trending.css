@@ -3,6 +3,8 @@
   height: 100%;
   margin: 0 auto;
   background: black;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
 }
 
 .trending-container {
@@ -14,6 +16,12 @@
 /* Trending Header */
 .trending-header {
   display: flex;
+  flex-direction: column;
+}
+
+.trending-header__text {
+  color: #ffff;
+  padding-bottom: 1rem;
 }
 
 .trending-header__dropdown {
@@ -39,9 +47,6 @@
 
 .trending-navigation__cards {
   display: flex;
-  /* flex-direction: column-reverse; */
-  /* overflow: auto;
-  scrollbar-width: none; */
 }
 
 .trending-navigation__items {
@@ -66,7 +71,7 @@
 
 .trending-navigation__item-img {
   text-decoration: none;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 .trending-navigation__item-img img {

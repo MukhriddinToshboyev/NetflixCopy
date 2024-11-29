@@ -84,7 +84,7 @@ function Netflix() {
           </div>
         </section>
       </div>
-      <div className="trending-banner">Trending Now</div>
+      <div className="trending-banner"></div>
     </div>
   );
 }
