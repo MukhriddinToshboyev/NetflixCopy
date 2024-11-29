@@ -1,5 +1,7 @@
 import "./Card.css";
 
+import CardIcon1 from "../assets/App-img1.jpg";
+
 function Card() {
   return (
     <div className="card-container">
