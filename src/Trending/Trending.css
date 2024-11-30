@@ -1,6 +1,6 @@
 .trending {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
 
 .trending-container {
   width: 75%;
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0 auto;
 }
 
@@ -62,7 +62,6 @@
   height: 100%;
   display: flex;
   list-style: none;
-  /* border: 1px solid red; */
   position: relative;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
@@ -73,7 +72,6 @@
 
 .trending-navigation__item-img {
   text-decoration: none;
-  border: 1px solid red;
 }
 
 .trending-navigation__item-img img {

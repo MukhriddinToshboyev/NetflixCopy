@@ -1,3 +1,47 @@
+.card-container {
+  width: 100%;
+  margin: 0 auto;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+.card-section__text {
+  color: #ffff;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.card-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
 .cars-item__text {
   color: #ffff;
+}
+
+.card-item {
+  width: 14rem;
+  height: 20rem;
+  margin-bottom: 1rem;
+  color: #ffff;
+  backdrop-filter: blur(30px);
+  border: 1px solid red;
+  background: linear-gradient(-16deg, #ce4b80, #292967); /* Gradient fon */
+  border-radius: 15px; /* Kartaning chetlarini yumaloqlash */
+  padding: 20px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soyaning ta'siri */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animatsiya */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-item__icon {
+  width: 100%;
+  margin-left: 4rem;
+  display: flex;
+  align-items: end;
 }

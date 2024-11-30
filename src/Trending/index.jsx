@@ -89,10 +89,8 @@ function Trending() {
             </ul>
           </div>
         </nav>
-      </div>
-      <section className="trending-section">
         <Card />
-      </section>
+      </div>
     </div>
   );
 }
