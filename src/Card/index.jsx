@@ -1,7 +1,5 @@
 import "./Card.css";
 
-import CardIcon1 from "../assets/Card-icon1.svg";
-
 function Card() {
   return (
     <div className="card-container">
