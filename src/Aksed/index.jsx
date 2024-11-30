@@ -52,9 +52,12 @@ function Aksed() {
   return (
     <div className="aksed-container">
       <h2 className="aksed-text">Frequently Asked Questions</h2>
-      <div className="aksed-items">
+      <ul className="aksed-items">
         {card?.map((item, index) => (
-          <div key={index} className="aksed-item">
+          <li
+            key={index}
+            className={`aksed-item ${activeIndex === index ? "active" : ""}`}
+          >
             <div className="aksed-question" onClick={() => handleClick(index)}>
               {item.question}
               <span className="aksed-item__icon">
@@ -64,14 +67,14 @@ function Aksed() {
                     fill="none"
                     role="img"
                     viewBox="0 0 36 36"
-                    width="36"
-                    height="36"
+                    width="24"
+                    height="24"
                     data-icon="PlusLarge"
                     aria-hidden="true"
                   >
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
                       fill="currentColor"
                     ></path>
@@ -88,8 +91,8 @@ function Aksed() {
                     aria-hidden="true"
                   >
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z"
                       fill="currentColor"
                     ></path>
@@ -98,11 +101,13 @@ function Aksed() {
               </span>
             </div>
             {activeIndex === index && (
-              <div className="aksed-answer">{item.answer} </div>
+              <div className="aksed-answer">
+                <span>{item.answer} </span>
+              </div>
             )}
-          </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 }
