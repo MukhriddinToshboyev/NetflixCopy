@@ -20,6 +20,8 @@
     rgba(0, 0, 0, 0.6035) 89.75%,
     rgba(0, 0, 0, 0.6) 97%
   );
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
 }
 
 .netflix-container {
@@ -93,8 +95,6 @@
   font-size: 3.5rem;
   color: rgb(255, 255, 255);
   font-weight: bolder;
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
-    sans-serif;
 }
 
 .netflix-section__text-starts {
@@ -102,8 +102,6 @@
   font-size: 1.25rem;
   color: rgb(255, 255, 255);
   font-weight: 800;
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
-    sans-serif;
 }
 
 .netflix-section__text {
@@ -111,45 +109,12 @@
   font-size: 1rem;
   font-weight: 500;
   color: rgb(255, 255, 255);
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
-    sans-serif;
 }
 
 .netflix-email {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.netflix-email__input {
-  width: 22.8rem;
-  height: 3.5rem;
-  font-size: 1rem;
-  background: transparent;
-  fill: currentcolor;
-  border: 1px solid #868080f7;
-  border-radius: 0.3rem;
-  padding: 1rem;
-  color: rgb(255, 255, 255);
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
-    sans-serif;
-}
-
-.netflix-email__button {
-  width: 13rem;
-  height: 3.5rem;
-  padding: 1rem;
-  margin-left: 0.8rem;
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
-    sans-serif;
-  font-weight: 700;
-  font-size: 1.5rem;
-  background: red;
-  border-radius: 0.3rem;
-  color: rgb(255, 255, 255);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 /* Netflix footer */
@@ -172,8 +137,6 @@
       rgba(0, 0, 0, 0.1) 100%
     ),
     black;
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
-    sans-serif;
 }
 
 .trending-banner::before {

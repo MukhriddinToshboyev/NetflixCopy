@@ -1,0 +1,35 @@
+.email {
+  max-width: 600px;
+  display: flex;
+}
+
+.email-input {
+  width: 22.8rem;
+  height: 3.5rem;
+  font-size: 1rem;
+  background: transparent;
+  fill: currentcolor;
+  border: 1px solid #868080f7;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  color: rgb(255, 255, 255);
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+.email-button {
+  width: 13rem;
+  height: 3.5rem;
+  padding: 1rem;
+  margin-left: 0.8rem;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  background: red;
+  border-radius: 0.3rem;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
