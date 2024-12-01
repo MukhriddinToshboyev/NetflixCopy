@@ -1,6 +1,6 @@
 .netflix {
   width: 100%;
-  height: 100vh;
+  height: 43rem;
   margin: 0 auto;
   z-index: 1;
   position: relative;
@@ -129,15 +129,22 @@
   padding-left: 10rem;
   text-align: left;
   position: relative;
-  border-top-left-radius: 100% 60%;
-  border-top-right-radius: 100% 60%;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom: none;
   background: radial-gradient(
-      80% 500% at 50% -410%,
+      50% 500% at 50% -420%,
       rgba(64, 97, 231, 0.4) 80%,
       rgba(0, 0, 0, 0.1) 100%
     ),
     black;
 }
+/* @media (min-width: 1280px) {
+  .trending-banner {
+    width: 130%;
+    left: -15%;
+  }
+} */
 
 .trending-banner::before {
   content: "";
