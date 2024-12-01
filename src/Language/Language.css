@@ -1,0 +1,23 @@
+.language {
+  position: relative;
+}
+
+.language-svg {
+  position: absolute;
+  left: 1rem;
+  top: 0.4rem;
+}
+
+.language-select {
+  width: 8rem;
+  height: 2rem;
+  color: #ffff;
+  border-radius: 0.3rem;
+  background: transparent;
+  line-height: 1.25rem;
+  padding: 0.375rem 1.9rem 0.375rem 2rem;
+}
+
+.language-select__text {
+  color: black;
+}
