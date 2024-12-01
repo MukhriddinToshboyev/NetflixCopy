@@ -127,7 +127,7 @@
   padding-top: 2rem;
   padding-left: 10rem;
   text-align: left;
-  position: relative;
+  position: absolute;
   border-top-left-radius: 100%;
   border-top-right-radius: 100%;
   border-bottom: none;

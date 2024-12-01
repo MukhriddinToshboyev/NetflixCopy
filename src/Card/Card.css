@@ -1,6 +1,6 @@
 .card-container {
   width: 100%;
-  margin: 0 auto;
+  margin: 2rem 0 2rem 0;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
     sans-serif;
 }
@@ -26,9 +26,12 @@
   height: 20rem;
   margin-bottom: 1rem;
   color: #ffff;
-  backdrop-filter: blur(30px);
-  border: 1px solid red;
-  background: linear-gradient(-16deg, #ce4b80, #292967); /* Gradient fon */
+  /* backdrop-filter: blur(30px); */
+  background: linear-gradient(
+    135deg,
+    #1b1b4f,
+    #170116
+  ); /* Gradient fon */ /* Gradient fon */
   border-radius: 15px; /* Kartaning chetlarini yumaloqlash */
   padding: 20px;
   color: white;
