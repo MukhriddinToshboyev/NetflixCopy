@@ -58,13 +58,21 @@
   width: 10rem;
 }
 
+.netflix-email__container {
+  display: flex;
+}
+
+.netflix-email {
+  position: relative;
+}
+
 .netflix-header__svg {
   position: absolute;
-  right: 23rem;
-  top: 3.2rem;
+  left: 1rem;
 }
 
 .netflix-header__select {
+  width: 8rem;
   height: 2rem;
   color: #ffff;
   border-radius: 0.3rem;
@@ -83,7 +91,7 @@
 .netflix-header__button {
   width: 5rem;
   height: 2rem;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   background: red;
   color: #ffff;
   border: 1px solid red;
