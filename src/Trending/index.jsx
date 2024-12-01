@@ -11,6 +11,7 @@ import TrendingImage8 from "../assets/Trending-image8.png";
 import TrendingImage9 from "../assets/Trending-image9.png";
 import Card from "../Card";
 import Aksed from "../Aksed";
+import Contact from "../Contact";
 
 function Trending() {
   return (
@@ -92,6 +93,7 @@ function Trending() {
         </nav>
         <Card />
         <Aksed />
+        <Contact />
       </div>
     </div>
   );
